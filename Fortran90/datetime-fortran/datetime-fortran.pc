@@ -1,0 +1,7 @@
+prefix=/usr/local
+ 
+Name: datetime-fortran
+Description: A Fortran library that provides time and date manipulation facilities
+Version: 1.7.1
+Libs: -L${prefix}/lib  -ldatetime
+Cflags: -I${prefix}/include
