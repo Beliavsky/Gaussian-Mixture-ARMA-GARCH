@@ -4,7 +4,7 @@ The main program is provided with EM.py file, which contains the begin entry for
 It has to be launched on a command shell with the Python3 interpreter, such as "python3 EM.py".
 
 The EM.py script starts to read a dataset from a .csv file given in input and convert it to a Pandas dataframe
-for improve the data managing and manipulation (a test file has been provided
+to improve the data management and manipulation (a test file has been provided
 with the name "RUNEUSDT_4H.csv" which contains all the relevant information for the RUNE/USDT digital asset 
 pair obtained from the Binance exchange for a certain period of time ranging from 2020/09/04 to 2021/03/12.
 Each report in the dataframe file gives information about the digital asset price packed into a 4 hours window,
