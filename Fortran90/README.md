@@ -10,7 +10,7 @@ the more general Python interface; the latter can handle the dataframe manipulat
 in different type of formats, adopting the large malleable pool of different python's packages.
 
 The state of the art is outlined by the following:
-   -General model parameters initialization has been achived with 3 derived types, expanding each one from the base ARMA(R,S)
+* General model parameters initialization has been achived with 3 derived types, expanding each one from the base ARMA(R,S)
     model, through the GARCH(Q,P) to reach a general Gaussian Mixture(K) of different components.
   > -Parameters values initialization has been set to a random state, which has been performed by 3 different class subroutines. 
   > -A first function to check the initial stability of the model has been implemented.
