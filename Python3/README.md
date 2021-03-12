@@ -25,6 +25,7 @@ set on the beginning of the main() function will change the model instance of th
 
 Finally, the "Utils" folder contains all the modules for the arithmetical computation subroutines and functions that 
 operates during the fitting procedure, and which are invoked by the main program at each iteration.
+
 At the end of the fit a brief summary statistics will show up and two figures will be visualized one after closing the other:
 the first figure contains 3 columns and K+1 rows, showing the variance and the residuals for the whole model along 
 the 1st column, the price return modelled series for each of the components in the 2nd column and the modelled variance for
