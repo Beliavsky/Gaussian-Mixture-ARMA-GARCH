@@ -19,7 +19,7 @@ The state of the art is outlined by the following:
 * A TIME_SERIES object has been built with a class of two I/O subroutines. (mod_IO.f90)
 * All the relevant fixed parameters values are stored in a different module (time series length, models ranks, ecc.). (mod_PARAMS.f90) 
 * The main program provides a simple introduction to the general model initialization, loading the time series data from file, 
-    and compute a first residuals and variances time series using the random initial parameters (a,b,delta_0,delta,beta). (EM_core.f90)
+    and compute the first residuals and variances time series using the random initial parameters (a,b,delta_0,delta,beta). (EM_core.f90)
 
 All the time series indices are managed with a datetime derived type, provided by a side fortran module located in the "datetime-fortran" folder.
 (credits: https://github.com/wavebitscientific/datetime-fortran)
