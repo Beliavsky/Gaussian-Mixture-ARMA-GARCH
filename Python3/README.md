@@ -1,6 +1,6 @@
 # How it works:
 
-The main program is privided with EM.py file, which contains the begin entry for the execution of the package.
+The main program is provided with EM.py file, which contains the begin entry for the execution of the package.
 It has to be launched on a command shell with the Python3 interpreter, such as "python3 EM.py".
 
 The EM.py script starts to read a dataframe from a .csv file given in input (a test file has been provided
