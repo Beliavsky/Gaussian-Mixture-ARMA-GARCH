@@ -1,4 +1,4 @@
-# Gaussian Mixture ARMA-GARCH
+# Gaussian Mixture ARMA-GARCH model
 
 The intent of this project is to produce a stable and reusable module that implements a Gaussian Mixture ARMA-GARCH model 
 to fit a generic time series with zero mean and gaussian distributed standard deviations.
