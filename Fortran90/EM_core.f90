@@ -1,10 +1,13 @@
 !!-----######################################################################################################################-----!!
-!!---- The Mixture Arma-Garch Expectation-Maximization (MAGEM) ALTernative Unified Mixture (ALTUM) code implements a fitting -----!!
-!!---- procedure for the ARMA(R,S)-GARCH(Q,P) model to a zero mean time series with K gaussian distributed unobserved compon -----!!
+!!---- The Mixture Arma-Garch Expectation-Maximization (MAGEM) ALTernative Unified Model (ALTUM) code implements a fitting -------!!
+!!---- procedure for the ARMA(R,S)-GARCH(Q,P) model on a zero mean time series with K gaussian distributed unobserved compon -----!!
 !!---- ents. It computes the maximum likelihood estimator in an iterative way, adopting the Expectation Maximization algorithm ---!!
-!!---- to find the maximum Q value assuming known model's parameters value and known likelihood probabilities for the unobserved -!!
-!!---- components Z, alternatively at each iteration. The final outputs provides the parameter estimated for the model. ----------!!
-!!---- S.F. Colla														  -----!!   
+!!---- to find the maximum Q value assuming known model's parameters values (to compute p(Z|y)) and known likelihood probabili ---!!
+!!---- ties for the unobserved components Z (to compute parameters values), alternatively at each iteration. ---------------------!!
+!!---- The final outputs provides the parameters values estimated for the model fit, as well as the time series of the variances -!!
+!!---- representing the volatility of the data, which are somehow usefull to predict the behavior of volatility clusters in the --!!
+!!---- near future.													----------!!
+!!---- S.F. Colla													----------!!   
 !!-----######################################################################################################################-----!!
 
 
